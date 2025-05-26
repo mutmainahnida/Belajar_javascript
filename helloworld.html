@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+    <script>
+        document.writeln("Hello World");
+    </script>
+    <br>
+    <script src="scripts/helloworld.js"></script>
+    <!-- tipe data number -->
+     <script>
+        document.writeln(10);
+        document.writeln("<br>");
+        document.writeln(10.5);
+        document.writeln("<br>");
+        document.writeln(10e5);
+        document.writeln("<br>");
+        document.writeln(0b101);
+        document.writeln("<br>"); //binary
+     </script>
+
+     <!-- tipe data boolean -->
+      <script>
+        document.writeln(true);
+        document.writeln("<br>");
+        document.writeln(false);
+        document.writeln("<br>");
+      </script>
+
+      <!-- tipe data string: bisa menggunakan tanda petik dua atau petik satu -->
+       <script>
+        document.writeln("Nida Mutmainah");
+        document.writeln("<br>");
+        document.writeln("nama: "+ "Nida Mutmainah");
+       </script>
+
+       <!-- escape sequences -->
+        <script>
+            document.writeln("Nida \"Mutmainah\"");
+            document.writeln("<textarea cols='100' rows='10'>   ");
+                document.writeln("ini adalah teks \ndidalam tektarea")
+                document.writeln("baris \nkedua");
+                document.write("\\ini tanpa write line");
+                document.write("\"ini juga\"");
+            document.writeln("</textarea>");
+        </script>
+
+        <!-- variable -->
+         <script>
+            let nama;
+            nama = "nida mutmainah";
+
+            //atau
+            let usia = 21;
+            let alamat = "Jepang";
+
+
+            document.writeln(nama);
+            document.writeln("<br>");
+            document.writeln(usia);
+            document.writeln("<br>");
+            document.writeln(alamat );
+
+
+            // variable const
+            const aplikasi = "Tindo";
+            document.writeln("<br>");
+            document.writeln(aplikasi);
+         </script>
+</body>
+</html>

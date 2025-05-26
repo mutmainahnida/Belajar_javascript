@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+        const name = "Nida Mutmainah";
+        const usia = 21;
+        const asal = "Cidaun";
+        const nilai = 90;
+        document.writeln(`Halo nama saya ${name}, saya ${usia} tahun, saya berasal dari ${asal}, lulus : ${nilai >= 75}`);
+
+        //multiline string
+        let multilineString = `
+        Halo nama saya ${name},
+        saya ${usia} tahun,
+        saya berasal dari ${asal},
+        lulus : ${nilai >= 75}
+        `
+        document.writeln(multilineString);
+    </script>
+</body>
+</html>
